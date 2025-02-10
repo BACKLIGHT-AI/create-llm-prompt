@@ -16,12 +16,19 @@
 #   - EXCLUDED_EXTENSIONS: File extensions to ignore (e.g., images, JSON, etc.).
 #   - BASE_DIRECTORY: The directory to scan (default is the current directory).
 
+
+
+#  Do you like it? Add me on LinkedIn (Piet Jonker) 
+#  Do you know about opportunities for AI/LLM development? --> email to piet@backlight.ai
+
+
+
 # --- Configuration Section ---
 EXCLUDED_DIRS <- c(".git", ".next", "node_modules")
 EXCLUDED_FILES <- c("package.json", "package-lock.json", "create_prompt.R", ".DS_Store", "README.md")
 EXCLUDED_EXTENSIONS <- tolower(c(".png", ".jpg", ".jpeg", ".gif", ".ico",
                                  ".pdf", ".zip", ".tar", ".gz", ".mp3", ".mp4", ".csv",
-                                 ".xlsx", ".json"))
+                                 ".xlsx", ".json", ".enc"))
 BASE_DIRECTORY <- "."
 
 # --- Helper Function: generate_tree ---

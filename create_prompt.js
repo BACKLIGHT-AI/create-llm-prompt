@@ -18,6 +18,12 @@
  *   - EXCLUDED_EXTENSIONS: File extensions to ignore (e.g., images, JSON, etc.).
  */
 
+
+/**
+ * Do you like it? Add me on LinkedIn (Piet Jonker) 
+ * Do you know about opportunities for AI/LLM development? --> email to piet@backlight.ai
+ */
+
 const fs = require('fs');
 const path = require('path');
 
@@ -30,7 +36,7 @@ const EXCLUDED_FILES = new Set(['package.json', 'package-lock.json', 'create_pro
 const EXCLUDED_EXTENSIONS = new Set([
   '.png', '.jpg', '.jpeg', '.gif', '.ico',
   '.pdf', '.zip', '.tar', '.gz', '.mp3', '.mp4', '.csv',
-  '.xlsx', '.json'
+  '.xlsx', '.json', '.enc'
 ]);
 // Set the base directory for scanning.
 const BASE_DIRECTORY = '.';
