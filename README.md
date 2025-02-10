@@ -4,6 +4,10 @@ Welcome to the **Project context extractor**!
 
 ---
 
+## What is does
+
+Turns codebase into .txt file so you can copy+paste into LLM for assistance.
+
 ## Why this tool
 
 I'm tired of copy-pasting chunks of code into LLMs and getting responses that miss the full context of my projects. It can be incredibly frustrating when an LLM doesn't understand how the various pieces of your code fit together. I created this tool out of that frustration—to automate the process of capturing your entire project's structure and the contents of its code files in one neatly formatted text file.
@@ -19,7 +23,7 @@ This way, you no longer have to manually copy and paste code snippets without co
 - **Scans your project:** It recursively traverses your project directory.
 - **Generates a tree structure:** It creates an ASCII tree representation of your project's directory layout.
 - **Collects code files:** It gathers the contents of code files while filtering out unwanted files (like images, binaries, and certain configuration files).
-- **Outputs as a markdown file:** All the gathered information is saved into a Markdown file (`output.txt`) that you can easily copy and paste.
+- **Outputs as a markdown file:** All the gathered information is saved into a file (`output.txt`) that you can easily copy and paste.
 
 ---
 
