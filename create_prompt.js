@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /**
- * This script scans your project directory and generates a Markdown file (output.txt)
+ * This script scans your project directory and generates a file (output.txt) with your codebase
  * that includes:
  *   1. An ASCII tree representation of your project's structure.
  *   2. The contents of code files (after filtering out unwanted file types).

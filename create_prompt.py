@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-This script scans your project directory and creates a Markdown file (output.txt)
+This script scans your project directory and creates a file (output.txt) with your codebase
 that contains both:
   1. A tree representation of your project's directory structure.
   2. The contents of code files (filtered by file type).

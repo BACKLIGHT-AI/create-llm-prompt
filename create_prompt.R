@@ -1,5 +1,5 @@
 #!/usr/bin/env Rscript
-# This R script scans your project directory and creates a Markdown file (output.txt)
+# This R script scans your project directory and creates a file (output.txt) with your codebase
 # that contains:
 #   1. A tree-like ASCII representation of your project's directory structure.
 #   2. The content of each code file (filtered by file type).
