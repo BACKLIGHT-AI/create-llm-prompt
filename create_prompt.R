@@ -28,7 +28,7 @@ EXCLUDED_DIRS <- c(".git", ".next", "node_modules")
 EXCLUDED_FILES <- c("package.json", "package-lock.json", "create_prompt.R", ".DS_Store", "README.md")
 EXCLUDED_EXTENSIONS <- tolower(c(".png", ".jpg", ".jpeg", ".gif", ".ico",
                                  ".pdf", ".zip", ".tar", ".gz", ".mp3", ".mp4", ".csv",
-                                 ".xlsx", ".json", ".enc"))
+                                 ".xlsx", ".json", ".enc", ".env"))
 BASE_DIRECTORY <- "."
 
 # --- Helper Function: generate_tree ---
