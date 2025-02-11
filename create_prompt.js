@@ -36,7 +36,7 @@ const EXCLUDED_FILES = new Set(['package.json', 'package-lock.json', 'create_pro
 const EXCLUDED_EXTENSIONS = new Set([
   '.png', '.jpg', '.jpeg', '.gif', '.ico',
   '.pdf', '.zip', '.tar', '.gz', '.mp3', '.mp4', '.csv',
-  '.xlsx', '.json', '.enc'
+  '.xlsx', '.json', '.enc', '.env'
 ]);
 // Set the base directory for scanning.
 const BASE_DIRECTORY = '.';
