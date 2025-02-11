@@ -26,11 +26,11 @@ import os
 
 # --- Configuration Section ---
 # These variables define what should be excluded from the output.
-EXCLUDED_DIRS = {'.git', '.next', 'node_modules'}
+EXCLUDED_DIRS = {'.git', '.next', 'node_modules', '__pycache__', 'logs'}
 EXCLUDED_FILES = {'package.json', 'package-lock.json', 'create_prompt.py', '.DS_Store', 'README.md'}
 EXCLUDED_EXTENSIONS = ['.png', '.jpg', '.jpeg', '.gif', '.ico',
                        '.pdf', '.zip', '.tar', '.gz', '.mp3', '.mp4', 
-                       '.csv', '.xlsx', '.json', '.enc']
+                       '.csv', '.xlsx', '.json', '.enc', '.env']
 # Set the base directory to scan; use '.' for the current directory.
 BASE_DIRECTORY = '.'
 
